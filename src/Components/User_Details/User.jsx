@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { Globalcontext } from "/home/mohit/Desktop/Coding/Educase/Globalcontext/globalcontext.jsx";
+import { Globalcontext } from "../../Globalcontext/globalcontext.jsx"
 
 const User = () => {
 

@@ -1,8 +1,6 @@
 import {useState, useContext} from "react"
 import {useNavigate} from "react-router-dom"
-import {Globalcontext} from "/home/mohit/Desktop/Coding/Educase/Globalcontext/globalcontext.jsx"
-
-
+import { Globalcontext } from "../../Globalcontext/globalcontext.jsx"
 const Createaccount = () => {
 
 
