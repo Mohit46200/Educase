@@ -3,7 +3,7 @@ const Userchild = (old = {}) => {
         ...old,
         path:"/user",
         lazy: async () => ({
-        Component: (await import("./User")).default,
+        Component: (await import("./User.jsx")).default,
         })
     }
 }

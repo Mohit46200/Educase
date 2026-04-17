@@ -23,7 +23,13 @@ const Createaccount = () => {
                     </div>
 
                 
-                    <form className="space-y-4">
+                    <form
+                        className="space-y-4"
+                        onSubmit={(e) => {
+                            e.preventDefault()
+                            navigate("/user")
+                        }}
+                    >
                     
                    <div>
                         <label className="text-sm text-purple-600 font-medium">
@@ -119,7 +125,6 @@ const Createaccount = () => {
                 
                     <button
                         type="submit"
-                        onClick={() => navigate("/user")}
                         className="w-full bg-gradient-to-r from-purple-500 to-purple-700 text-white py-3 rounded-md font-semibold mt-4 hover:opacity-90 transition"
                     >
                         Create Account
